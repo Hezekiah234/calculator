@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Calculator</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+ <section id="body">
+ <input type="text" id="display" disabled="0">0</input>
+  <div id="inone">
+   <button onclick="allOne(7)" id="first-line" >7</button>
+   <button id="first-line"  onclick="allOne(8)">8</button>
+   <button id="first-line"onclick="allOne(9)">9</button>
+   <button id="first-line" onclick="allOne('/')">÷</button>
+  </div>
+    <div id="intwo">
+   <button id="first-line" onclick="allOne(4)">4</button>
+   <button id="first-line" onclick="allOne(5)">5</button>
+   <button id="first-line" onclick="allOne(6)">6</button>
+   <button id="first-line" onclick="allOne('*')">*</button>
+  </div>
+  <div id="inthree">
+   <button id="first-line" onclick="allOne(1)">1</button>
+   <button id="first-line" onclick="allOne(2)">2</button>
+   <button id="first-line" onclick="allOne(3)">3</button>
+   <button id="first-line" onclick="allOne('-')">-</button>
+  </div>
+  <div id="infour">
+   <button id="first-line" onclick="allOne(0)">0</button>
+   <button id="first-line"onclick="allOne('.')">.</button>
+   <button id="first-line" onclick="allOne('+')">+</button>
+   <button onclick="myAnswer()" id="first-line" style="background-color: orangered;" >=</button>
+  </div>
+ </section>
+
+<script src="script.js"></script>
+ 
+</body>
+</html>

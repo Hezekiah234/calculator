@@ -1,0 +1,121 @@
+#body{
+ width: 35%;
+ height: 550px;
+ padding: 10px;
+ border-radius: 14px;
+ /* margin-top: 50px; */
+ background-color: rgb(26, 25, 25);
+ position: absolute;
+ top:50px;
+ left: 500px;
+ box-shadow: 2px 1px 3px 1px whitesmoke;
+}
+#display{
+ width: 77%;
+ height: 75px;
+ padding-top: 2px;
+ padding-right: 10px;
+ border-radius: 5px;
+ background-color: aliceblue;
+ position: relative;
+ top: 40px;
+left: 50px;
+text-align: end;
+font-size: 50px;
+box-shadow: 2px 1px 4px 1px, 2px 1px 4px 1px whitesmoke;
+ /* margin-top: 5px; */
+
+
+}
+#inone{
+ gap: 30px;
+ display: flex;
+}
+
+#first-line{
+ position: relative;
+ top: 80px;
+ left: 50px;
+ width: 70px;
+ /* cursor: pointer; */
+ background-color: aliceblue;
+ padding: 10px;
+ text-align: center;
+ font-size: 30px;
+ border-radius: 7px;
+ box-shadow: 1px 0px 3px 2px, 1px 0px 3px 2px whitesmoke ;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+#intwo{
+ gap: 30px;
+ display: flex;
+ position: relative;
+ top: 30px;
+ 
+}
+
+#inthree{
+ gap: 30px;
+ display: flex;
+ position: relative;
+ top: 55px;
+ 
+}
+button{
+ font-size: xx-large;
+ cursor: pointer;
+ z-index: 1000;
+}
+
+#infour{
+ gap: 30px;
+ display: flex;
+ position: relative;
+ top: 75px;
+ 
+}
+@media screen and (max-width:478px) {
+ #body{
+  position: absolute;
+  left: 10px;
+  width: 350px;
+ }
+ #display{
+width: 90%;
+position: relative;
+left: 15px;
+ }
+
+#inone{
+ position: relative;
+ left: -45px;
+}
+#intwo{
+ position: relative;
+ left: -45px;
+}
+#inthree{
+ position: relative;
+ left: -45px;
+}
+#infour{
+ position: relative;
+ left: -45px;
+}
+}
+
+/* #first-line{
+ position: relative;
+ top: 80px;
+ left: 50px;
+ width: 70px;
+ background-color: aliceblue;
+ padding: 10px;
+ text-align: center;
+ font-size: 30px;
+ border-radius: 7px;
+ box-shadow: 1px 0px 3px 2px, 1px 0px 3px 2px whitesmoke ;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+} */
